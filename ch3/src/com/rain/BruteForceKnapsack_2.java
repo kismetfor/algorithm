@@ -20,10 +20,6 @@ public class BruteForceKnapsack_2 {
         items.add(new Item(5, 30));
         items.add(new Item(10, 50));
         items.add(new Item(5, 10));
-        items.add(new Item(5, 10));
-        items.add(new Item(5, 10));
-        items.add(new Item(5, 10));
-        items.add(new Item(5, 10));
 
         int[] best_value = new int[2];
         //0用来存储最大价值, 1用来存储if调用次数 也就是子集数目, 可以说是时间复杂度
